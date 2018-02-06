@@ -28,8 +28,8 @@ public class ClientWSCalculator {
     private static double raiz(double n1) {
         pack.Calc_Service service = new pack.Calc_Service();
         pack.Calc port = service.getCalcPort();
-        return port.raiz(n1);
-    }
+        return port.raiz(n1); 
+   }
 
     private static double div(double n1, double n2) {
         pack.Calc_Service service = new pack.Calc_Service();
